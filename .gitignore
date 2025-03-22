@@ -1,0 +1,7 @@
+cucumber-report.html
+package-lock.json
+node_modules/
+step-definitions/screenshot.png
+step-definitions/screenshots/
+step-definitions/.DS_Store
+step-definitions/support/.DS_Store

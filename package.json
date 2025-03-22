@@ -1,0 +1,28 @@
+{
+  "name": "selenium-cucumber-allure",
+  "version": "1.0.0",
+  "description": "selenium-webdriver with cucumber framework",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cucumber-js --config configs/cucumber-allure.mjs",
+    "test:local": "cucumber-js --config configs/cucumber-local.mjs",
+    "report": "allure serve allure-results"
+  },
+  "author": "Min He",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/register": "^7.25.9",
+    "@cucumber/cucumber": "^11.2.0",
+    "allure-cucumberjs": "^3.2.0",
+    "allure-js-commons": "^3.2.0",
+    "chai": "^5.2.0",
+    "chromedriver": "^134.0.3",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "lodash": "^4.17.21",
+    "nconf": "^0.12.1",
+    "selenium-webdriver": "^4.29.0",
+    "uuid": "^11.1.0"
+  }
+}

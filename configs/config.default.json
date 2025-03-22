@@ -1,0 +1,12 @@
+{
+  "swagLabsBaseUrl": "https://www.saucedemo.com",
+  "seleniumTimeouts": {
+    "elementWait": 10000,
+    "pageLoad": 30000
+  },
+  "cucumberTimeout": {
+    "default": 60000
+  },
+  "standardUsername": "standard_user",
+  "passwordFallUsers": "secret_sauce"
+}
